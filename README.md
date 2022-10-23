@@ -41,28 +41,23 @@ tsc --watch
 tsc -w
 ```
 
-```bash
-```
-
 ## Tipos de datos
 
 ### Booleans
 ```ts
-let isBooleanTrue:boolean = true
+let isBooleanTrue: boolean = true
 let isBooleanFalse:boolean = true
 ```
 
-## Numbers
+### Numbers
 ```ts
-let isNumber1 : number = 1230
+let isNumber1: number = 1230
 ```
-
 
 ### String
 ```ts
 const variableString: string = 'Hola'
 ```
-
 
 ### Any
 Any es un tipo de la cual puede ser cualquier tipo.
@@ -73,4 +68,7 @@ let a;
 a = {};
 a = [];
 a = true
+```
+
+```bash
 ```
