@@ -61,14 +61,18 @@ const variableString: string = 'Hola'
 
 ### Any
 Any es un tipo de la cual puede ser cualquier tipo.
-Es recomendable utilizar lo menos posible el tipo `Any`
+> Es recomendable utilizar lo menos posible el tipo `any`
 ```ts
-let a;
+let a: any;
 
 a = {};
 a = [];
 a = true
 ```
 
-```bash
+### Arrays
+Los podemos poner que solo reciba un tipo de dato, o que reciba varios
+```ts
+const arrayNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const array: (string | number | boolean)[] = [1, 2, 3, true, 'Hola Mundo']
 ```
