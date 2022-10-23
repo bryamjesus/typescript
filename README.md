@@ -14,17 +14,6 @@ tsc -v
 tsc --version
 ```
 
-## Primer Hola Mundo
-Creamos un archivo con la extension .ts y uno html al abrir el .ts ponemos el siguiente codigo
-```ts
-const msg: string = "Hola Mundo";
-console.log(msg);
-```
-Para compilar usamos el siguiente comando. La cual hara un archivo .js la cual este transformo del .ts.
-```bash
-tsc ruta/nombreArchivo.ts
-```
-
 ## tsconfig.json
 Para iniciar 
 ```bash
@@ -76,3 +65,11 @@ Los podemos poner que solo reciba un tipo de dato, o que reciba varios
 const arrayNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const array: (string | number | boolean)[] = [1, 2, 3, true, 'Hola Mundo']
 ```
+
+### Tupla
+```ts
+const dato: [string, number] = ['Bryam Jesus', 23]
+const dato2: [string, number, boolean] = ['Javiera', 22, false]
+```
+
+
