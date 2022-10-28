@@ -106,3 +106,11 @@ const error = (message: string): never | number => {
 };
 ```
 
+### Null - Undefined
+Evitar su uso
+```ts
+let nada: undefined = undefined;
+
+console.log(nada);
+```
+
