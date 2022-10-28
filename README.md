@@ -86,6 +86,13 @@ const dato2: [string, number, boolean] = ['Javiera', 22, false]
 ```
 
 ### Void -> Vacio
+```ts
+ function callBatman() : void {
+    return;
+  }
 
-
+  const callSuperman =() :void => {
+    return
+  }
+```
 
