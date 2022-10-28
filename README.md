@@ -83,7 +83,9 @@ const dato2: [string, number, boolean] = ['Javiera', 22, false]
   let currentAudio = AudioLevel.medium; // 2
   console.log(currentAudio);
   console.log(AudioLevel);
-
 ```
+
+### Void -> Vacio
+
 
 
