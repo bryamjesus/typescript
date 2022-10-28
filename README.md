@@ -108,6 +108,7 @@ const error = (message: string): never | number => {
 
 ### Null - Undefined
 Evitar su uso
+> Undefied es asignable a una variable de tipo Null
 ```ts
 let nada: undefined = undefined;
 
