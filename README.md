@@ -72,4 +72,18 @@ const dato: [string, number] = ['Bryam Jesus', 23]
 const dato2: [string, number, boolean] = ['Javiera', 22, false]
 ```
 
+### Enum
+```ts
+  enum AudioLevel {
+    min = 1,
+    medium,
+    max = 10,
+  }
+
+  let currentAudio = AudioLevel.medium; // 2
+  console.log(currentAudio);
+  console.log(AudioLevel);
+
+```
+
 
