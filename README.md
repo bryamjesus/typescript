@@ -96,3 +96,13 @@ const dato2: [string, number, boolean] = ['Javiera', 22, false]
   }
 ```
 
+### Never
+```ts
+const error = (message: string): never | number => {
+  if (false) {
+    throw new Error(message);
+  }
+  return 1;
+};
+```
+
