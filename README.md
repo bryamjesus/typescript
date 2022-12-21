@@ -83,7 +83,35 @@ const dato2: [string, number, boolean] = ['Javiera', 22, false]
   let currentAudio = AudioLevel.medium; // 2
   console.log(currentAudio);
   console.log(AudioLevel);
-
 ```
 
+### Void -> Vacio
+```ts
+ function callBatman() : void {
+    return;
+  }
+
+  const callSuperman =() :void => {
+    return
+  }
+```
+
+### Never
+```ts
+const error = (message: string): never | number => {
+  if (false) {
+    throw new Error(message);
+  }
+  return 1;
+};
+```
+
+### Null - Undefined
+Evitar su uso
+> Undefied es asignable a una variable de tipo Null
+```ts
+let nada: undefined = undefined;
+
+console.log(nada);
+```
 
