@@ -9,5 +9,9 @@
         name: 'Superman',
         age: 60,
         powers: ['Súper fuerza'],
+        getName() {
+            return this.name;
+        }
     };
+    console.log(flash.getName());
 })();
