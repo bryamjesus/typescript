@@ -5,15 +5,10 @@
     powers: ['Súper velocidad', 'Viajat en el tiempo']
   }
 
-  flash = {
-    name: 'Superman',
-    age:60,
-    powers:['Súper fuerza'],
-    getName(){
-      return this.name
-    }
+  let superman: { name: string, age?:number, powers: string[], getName?:()=>string} = {
+    name: 'Clark Kent',
+    age: 60,
+    powers: ['Súper velocidad']
   }
-
-  console.log(flash.getName())
 
 })()

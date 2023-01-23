@@ -3,11 +3,11 @@
     let flash = {
         name: 'Barry Allent',
         age: 24,
-        powers: ['Súper velocidad', 'Viajat en el tiempo']
+        powers: [1, 2]
     };
     let superman = {
         name: 'Clark Kent',
         age: 60,
-        powers: ['Súper velocidad']
+        powers: [1]
     };
 })();
